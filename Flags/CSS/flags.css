@@ -1,0 +1,118 @@
+body {
+	background-color: black;
+	height: 5000px;
+}
+p {
+	color: white;
+	margin:-1px 0px -1px 5px;
+	font-size: 16px;
+	display: block;
+	line-height: 17px;
+}
+
+#top {
+	margin-top: 6px;
+}
+
+
+.flag {
+	width:250px;
+	height:500px;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.green {
+	background-color: green;
+}
+
+.white {
+	background-color: white;
+}
+
+.red {
+	background-color: red;
+}
+
+.jon {
+	position:absolute;
+	left:778px;
+	top:50px;
+	width:501px;
+	height:300px;
+	background-color: green;
+}
+.jonpanel {
+	height: 100%;
+	width: 33.33%;
+	background-color: red;
+	float:left;
+	/*	position: absolute;*/
+}
+
+#green {
+	background-color: green;	
+}
+
+#white {
+	background-color: white;
+}
+
+/*#red {
+	left: 66.66%;
+	}*/
+
+	.america {
+		position:absolute;
+		left:778px;
+		top:400px;
+		width:501px;
+		height:300px;
+		background-color: red;
+	}
+
+	.america .jonpanel {
+		height: 7.692%;
+		width: 100%;
+	}
+
+	.america #star {
+		width: 40%;
+		height: 53.744%;
+		background-color: navy;
+		position:absolute;
+	}
+
+	.cuba {
+		position:absolute;
+		left: 100px;
+		top:550px;
+		width:600px;
+		height:300px;
+	}
+
+	.cuba .jonpanel {
+		height: 20%;
+		width: 100%;
+		background-color: darkslateblue;
+	}
+
+	.arrow-right {
+		position: absolute;
+		width: 0;
+		height: 0;
+		border-top: 150px solid transparent;
+		border-bottom: 151px solid transparent;
+		border-left: 223px solid red;
+		z-index: 1;
+	}
+
+	.cuba p {
+    position: absolute;
+    color: white;
+    z-index: 2;
+    font-size: 95px;
+    left: 29px;
+    top: 142px;
+	}
