@@ -1,5 +1,19 @@
 body {
-	background-color:#f2c5c5;
+	background-image: url('https://simonjamesonweston.files.wordpress.com/2012/01/r1-13.jpg');
+	    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-color: #c5cff1;
+	margin: 0px;
+	padding: 0px;
+}
+
+.intro {
+	position:fixed;
+    margin-top: -86px;
+	margin-left:-8px;
+	padding: 100px 50px 80px 50px;
+	height: 100%;
+	background-color: #91a4c0;
 }
 
 h1, h2, h3, p {
@@ -8,67 +22,68 @@ h1, h2, h3, p {
 
 h1{
 	text-align: center;
-	color:#ff6347;
+	color:#ffe5c0;
 	font-size: 40px;
 	margin-bottom: 10px;
+font-family: 'Cherry Swash', cursive;
 }
 
 .intro h2 {
-	margin-bottom: 20px;
+	margin-bottom: -11px;
+	margin-top: 20px;
 }
 
-h2, h3{
-	color:#f7a172;
+.intro h2, h3{
+	color:#ffe5c0;
 	font-size: 10px;
 	line-height: 14px;
 }
 
-h3 a {
-	color:#f7a172;
+.intro h3 a {
+	color:#ffe5c0;
+	opacity: 0.75;
 }
 
-
-.intro {
-	position:fixed;
-    margin-top: -101px;
-	margin-left:-8px;
-	padding: 100px 50px 80px 50px;
-	height: 100%;
-	background-color: #ffe5c0;
+.intro h3 a:hover {
+	color:#ffe5c0;
+	opacity: 1;
 }
 
 p {
-	color:grey;
+	color: #B26B61;
 	margin-left: 400px;
 	line-height: 20px;
 }
 
-.original{
-	margin-top:51px;
+.original {
+/*	margin-top:51px;*/
+	padding: 75px 0;
+}
+
+.original, .stanza {
+	background-color: #FFEAE7;
+}
+
+.stanza {
+	padding: 75px 0;
+	margin: 0;
 }
 
 span{
 	border-bottom-width: 1px;
-	border-bottom: 1px solid #fe6346;
-	/*text-decoration: underline;*/
-	/*text-decoration-color: #f2c5c5; */
-}
-.final span {
-	border-color: #ff7992 !important;
+	border-bottom: 1px solid #4d6490;
 }
 
 .bigger p{
 	font-size: 30px;
 	color: white;
 	line-height: 40px;
+	font-weight: bold;
+	letter-spacing: .01em;
 }
 
 .bigger {
-	background-color: #c5cff1;
-}
-
-.stanza3 {
-	color:#ff6347;
+	padding:30px 0;
 }
 
 .tyger {
