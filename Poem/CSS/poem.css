@@ -1,11 +1,23 @@
 body {
-	background-image: url('https://simonjamesonweston.files.wordpress.com/2012/01/r1-13.jpg');
+/*	animation-name:bgShow;
+	animation-duration: 10s;*/
+/*	background-image: url('https://simonjamesonweston.files.wordpress.com/2012/01/r1-13.jpg');
 	    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 	background-color: #c5cff1;
 	margin: 0px;
 	padding: 0px;
 }
+
+#bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -100;
+}
+
 
 .intro {
 	position:fixed;
@@ -56,8 +68,12 @@ p {
 }
 
 .original {
-/*	margin-top:51px;*/
 	padding: 75px 0;
+}
+
+@keyframes textOpacity{
+	0% {background-color: white}
+	100% {background-color: white}
 }
 
 .original, .stanza {
@@ -91,6 +107,7 @@ span{
 	width: 66%;
 	height: 30%;
 	opacity: 0.2;
+	left: -200px;
 }
 
 .tyger:hover {
