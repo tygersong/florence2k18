@@ -39,13 +39,18 @@ hr {
 	width: 695px;
 
 }
-.mainText h1 {
+.mainText a {
 	font-family: acumin-pro-extra-condensed, sans-serif;
 	font-style: normal;
 	font-weight: 800;
 	font-size: 63px;
 	text-transform: uppercase;
 	color: white;
+	text-decoration: none;
+}
+
+.mainText a:hover {
+	cursor: url('../images/pointer_up.png'), auto;	
 }
 
 .left {
@@ -86,6 +91,14 @@ hr {
 	width:100%;
 }
 
+.left .imageBG img {
+	cursor: url('../images/pointL.png'), default;	
+}
+
+.right .imageBG img {
+	cursor: url('../images/pointR.png'), default;	
+}
+
 /*#introText {
 	color: white;
 	z-index: 10;
@@ -102,7 +115,7 @@ hr {
 	}*/
 
 
-	h2, h3, h4, p{
+	h2, h3, h4, p, a {
 		color: #58595b;
 	}
 
@@ -117,10 +130,10 @@ hr {
 
 	h2 {
 		/*quotation marks*/
-		font-family: acumin-pro-condensed, sans-serif;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: 600;
-		font-size: 48px;
+		font-size: 64px;
 		line-height: .63em;
 	}
 
@@ -145,11 +158,6 @@ hr {
 		font-style: normal;
 		font-weight: 400;
 		/*		padding-bottom: 30px;*/
-	}
-
-	a {
-		color: #e87b81;
-		text-decoration: none;
 	}
 
 	img {
@@ -182,28 +190,135 @@ hr {
 	}
 
 	#markL {
-		left: 9%;
+		left: 10.5%;
+		margin-top: -7px;
 	}
 
 	#quote {
-		left: 12%;
-		width: 75%;
+		left: 21%;
+		width: 57%;
 	}
 
 	#markR {
-		left: 86.5%;
+		left: 82.5%;
+		margin-top: -7px;
+	}
+
+	.photo {
+		position: relative;
+		overflow: hidden;
+	}
+
+	.photo > * { display: block; }
+
+	.caption {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		/*customize below*/
+		color: #ffffff;
+		-webkit-transition: all 0.5s ease-out;
+		-moz-transition: all 0.5s ease-out;
+		transition: all 0.5s ease-out;
+	}
+
+	.captionTop {
+		bottom: -100%;
+		left: 0;
+	}
+
+	.captionTop h4 {
+		margin: 5px 5px;
+	}
+
+	.photo:hover .caption {
+		bottom: -91%;
+		left: 0;
+		-webkit-transition: all .5s ease-out;
+		-moz-transition: all .5s ease-out;
+		transition: all .5s ease-out;
+	}
+
+	#photoSymbol:hover .caption {
+		bottom: -90%;
+	}
+
+	#photoSign:hover .caption{
+		bottom: -74%;
+	}
+
+	#photoSewoon:hover .caption {
+		bottom: -94%;
+	}
+
+	#photoSewoonSmall:hover .caption {
+		bottom: -88%;
+	}
+
+	#yeoudioLeft:hover .caption{
+		bottom: -80%;
+	}
+
+	#yeouido:hover .caption {
+		bottom: -70%;
+	}
+
+	#fantastic:hover .caption {
+		bottom: -85%;
+	}
+
+	.caption > * {
+		-webkit-transition: opacity 3s ease;
+		-moz-transition: opacity 3s ease;
+		transition: opacity 3s ease;
+		opacity: 0;
+	}
+
+	.photo:hover .caption > * {
+		-webkit-transition: opacity .5s ease;
+		-moz-transition: opacity .5s ease;
+		transition: opacity .5s ease;
+		opacity: 1;
+	}
+
+	.guro .caption {
+		background: rgba(251,233,209,.8);
+	}
+
+	.sewoon .caption {
+		background: rgba(182,208,212,.8);
+	}
+
+	.osaka .caption, .states .caption {
+		background: rgba(229,229,252,.8);
+	}
+
+	.yeouido .caption, .autopsy .caption {
+		background: rgba(251,218,218,.8);
+	}
+
+	.fantastic .caption {
+		background: rgba(194,224,164,.8);
 	}
 
 
 
 
-	.info, .guro, .sewoon, .osaka, .yeouido, .fantastic {
+
+
+
+
+
+
+
+
+	.exhibit, .guro, .sewoon, .osaka, .yeouido, .fantastic {
 		/*is left column*/
 		padding: 30px 45px 30px 30px;
 		margin: 0;
 	}
 
-	.exhibit, .dream, .radical, .states, .autopsy, .light, .reference {
+	.info, .dream, .radical, .states, .autopsy, .light, .reference {
 		/*is right column*/
 		padding: 30px 30px 30px 45px;
 		margin: 0;
@@ -237,11 +352,18 @@ hr {
 		margin-left: 8px;
 		margin-top: -53px;
 		color: #fbe9d1;
-
 	}
 
 	.sewoon, .radical {
 		background-color: #b6d0d4;
+	}
+
+	.radical h1 {
+		position: absolute;
+		margin-left: 8px;
+		margin-top: -81px;
+		color: #b6d0d4;
+		line-height: 35px;
 	}
 
 	.osaka, .states {
@@ -252,12 +374,41 @@ hr {
 		background-color: #fbdada;
 	}
 
+	.yeouido h1 {
+		position: absolute;
+		margin-left: 8px;
+		margin-top: -54px;
+		color: #fbdada;
+	}
+
+	.autopsy h1 {
+		position: absolute;
+		margin-left: 8px;
+		margin-top: -53px;
+		color: #fff;
+	}
+
 	.fantastic{
 		background-color: #c2e0a4;
 	}
 
+	.fantastic h1 {
+		position: absolute;
+		margin-left: 46px;
+		margin-top: -319px;
+		color: #c2e0a4;
+	}
+
 	.light {
-		background-color: #e4e2ef;
+		background-color: #c3eaf9;
+	}
+
+	.light h1 {
+		position: absolute;
+		margin-left: 27px;
+		margin-top: -503px;
+		color: #c3eaf9;
+		line-height: 35px;
 	}
 
 	.reference {
@@ -266,12 +417,12 @@ hr {
 
 
 
-	.gradInfoGuro, .gradGuroSewoon, .gradExhibitAutopsy, .gradSewoonOsaka, .gradOsakaYeouido, .gradYeouidoFantastic, .gradAutopsyStates, .gradStatesRadical, .gradRadicalDream, .gradDreamLight, .gradLightReference {
+	.gradExhibitGuro, .gradGuroSewoon, .gradInfoAutopsy, .gradSewoonOsaka, .gradOsakaYeouido, .gradYeouidoFantastic, .gradAutopsyStates, .gradStatesRadical, .gradRadicalDream, .gradDreamLight, .gradLightReference {
 		height: 400px;
 	}
 
 	/*Left gradients*/
-	.gradInfoGuro {
+	.gradExhibitGuro {
 		background: linear-gradient(#e5e5e5, #fbe9d1);
 	}
 
@@ -292,7 +443,7 @@ hr {
 	}
 
 	/*Right gradients*/
-	.gradExhibitAutopsy {
+	.gradInfoAutopsy {
 		background: linear-gradient(#e5e5e5, #fbdada);
 	}
 
@@ -309,9 +460,9 @@ hr {
 	}
 
 	.gradDreamLight {
-		background: linear-gradient(#fbe9d1, #e4e2ef);
+		background: linear-gradient(#fbe9d1, #c3eaf9);
 	}
 
 	.gradLightReference {
-		background: linear-gradient(#e4e2ef, #dac9c7);
+		background: linear-gradient(#c3eaf9, #dac9c7);
 	}
