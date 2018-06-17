@@ -267,6 +267,10 @@ hr {
 		bottom: -85%;
 	}
 
+	#photoLong:hover .caption {
+		bottom: -96%;
+	}
+
 	.caption > * {
 		-webkit-transition: opacity 3s ease;
 		-moz-transition: opacity 3s ease;
