@@ -1,0 +1,332 @@
+h1 {
+	font-family: 'Open Sans', sans-serif, font-weight: 600 ;
+	font-size: 4.5em;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif, font-weight: 200 ;
+	font-size: 2em;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #77787b;
+	line-height: 28px;
+}
+
+strong {
+	font-weight: 1000;
+	color: black;
+}
+
+.splash {
+	position: fixed;
+	width: 100%;
+	height: 780px;
+	z-index: 10;
+}
+
+.element {
+	height: 100%;
+}
+
+.circle {
+	height: 180px;
+	width: 180px;
+	background-color: #eecde2;
+	border-radius: 50%;
+	margin: auto;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 92.376px solid transparent;
+	border-right: 92.376px solid transparent;
+	border-top: 150px solid #b8e4f1;
+	margin: 10px auto;
+}
+
+.triangleDown {
+	width: 0;
+	height: 0;
+	border-left: 92.376px solid transparent;
+	border-right: 92.376px solid transparent;
+	border-bottom: 150px solid #b8e4f1;
+	margin: 10px auto;
+}
+
+.hexagon {
+	position: relative;
+	width: 180px; 
+	height: 90px;
+	background-color: #f8b4b4;
+	margin: auto;
+	margin-top: 53px;
+	padding: 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+}
+
+.hexagon:before {
+	bottom: 100%;
+	border-bottom: 55px solid #f8b4b4;
+}
+
+.hexagon:after {
+	top: 100%;
+	width: 0;
+	border-top: 55px solid #f8b4b4;
+}
+
+.square {
+	height: 180px;
+	width: 180px;
+	background-color: #bbdfbf;
+	margin: auto;
+}
+
+.shapeCenter {
+	padding: 300px 0 0 0;
+}
+
+#hexCenter {
+	margin: -5px auto;
+}
+
+
+.white {
+	position: fixed;
+	width: 100%;
+}
+
+#whiteCircle {
+	margin-top: 393px;
+	background-color: white;
+	height: 387px;
+}
+
+#whiteTriangle {
+	margin-top: 310px;
+	background-color: white;
+	height: 470px;
+}
+
+#whiteHexagon {
+	margin-top: 351px;
+	background-color: white;
+	height: 429px;
+}
+
+#whiteSquare {
+	margin-top: 380px;
+	background-color: white;
+	height: 480px;
+}
+
+.scrollShapes {
+	position: relative;
+	height: 500px;
+	width: 100%;
+	z-index: -50;
+}
+
+.scrollCircle, .scrollTriangle, .scrollHexagon, .scrollSquare {
+	margin: 500px auto;
+}
+
+.scrollCircle {
+	background-color: #eecde2;
+	width: 180px;
+	height: 745px;
+}
+
+#circleMargin {
+	margin: -90px auto;
+}
+
+.scrollTriangle {
+	background-color: #b8e4f1;
+	width: 184.752px;
+	height: 598px;
+}
+
+#triangleMargin {
+	margin-top: -10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -310px;
+}
+
+.scrollHexagon {
+	background-color: #f8b4b4;
+	width: 180px;
+	height: 662px;
+}
+
+#hexagonMargin {
+	margin-top: -10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -353px;
+}
+
+.scrollSquare {
+	background-color: #bbdfbf;
+	width: 180px;
+	height: 584px;
+}
+
+#squareMargin {
+	margin-top: -10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -310px;
+}
+
+
+.diagramSplash {
+	position: relative;
+	display: block;
+	width: 100%;
+	margin-top: 697px;
+	margin-bottom: 300px;
+	z-index: 1;
+}
+
+.diagramSplash img{
+	width: 100%;
+}
+
+.problem {
+	/*	width: 100%;*/
+	height: 550px;
+	background-image: url("../images/problem.png");
+	background-size: 100%;
+}
+
+.problem img {
+	z-index: -10;
+	width: 100%
+}
+
+.intro {
+	height: 400px;
+	padding: 120px 0;
+}
+
+.intro h1 {
+	color: #b8e4f1;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+.intro h2 {
+	color: #f8b4b4;
+	font-size: 2em;
+	margin: -5px 0 30px 0;
+
+}
+
+.intro em {
+	font-family: 'Open Sans', sans-serif, font-weight: 800 ;
+}
+
+.secondary {
+	height: 300px;
+	margin: 1200px auto 200px auto;
+	padding: 0px 15px;
+}
+
+#infoMargin {
+	margin-top: 107px;
+}
+
+#secondary h2 {
+	text-align: center;
+	color: #eecde2;
+	text-transform: uppercase;
+	font-size: 36px;
+	margin: auto;
+}
+
+#inline {
+	display: inline-block;
+}
+
+.triangleSecondary {
+	width: 0;
+	height: 0;
+	border-left: 62.376px solid transparent;
+	border-right: 62.376px solid transparent;
+	border-top: 104px solid #b8e4f1;
+	margin: 10px auto;
+}
+
+.hexagonSecondary {
+	position: relative;
+	width: 90px; 
+	height: 50px;
+	background-color: #f8b4b4;
+	margin: 50px auto 60px auto;
+	padding: 0;
+}
+
+.hexagonSecondary:before,
+.hexagonSecondary:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+}
+
+.hexagonSecondary:before {
+	bottom: 100%;
+	border-bottom: 30px solid #f8b4b4;
+}
+
+.hexagonSecondary:after {
+	top: 100%;
+	width: 0;
+	border-top: 30px solid #f8b4b4;
+}
+
+.pull h1 {
+	text-align: center;
+	color: #eecde2;
+	margin: 330px 0 220px;
+	height: 200px;
+}
+
+.connectionExp {
+	height: 600px;
+	width: 100%;
+
+}
+
+#oneConnection {
+	background-image: url("../images/oneConnection.png");
+	background-size: 100%;
+}
+
+.smaller {
+	width: 80%;
+	margin: 245px auto 0 auto;
+}
+
+.final {
+	margin-top: 1200px;
+	height: 800px;
+	width: 100%;
+	background-image: url("../images/exhibit.png");
+	background-size: 100%;
+}
