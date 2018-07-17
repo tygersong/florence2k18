@@ -1,0 +1,547 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100vh;
+}
+
+
+
+.container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	transform: scale(10);
+	transform-origin: left top;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5px;
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+	text-align: center
+}
+
+div {
+	margin:0px;
+	padding:0px;
+}
+
+.block {
+	position:absolute;
+/*	background-color: red;*/
+	width: 10vw;
+	height: 10vh;
+	margin: 0;
+	padding: 0;
+/*	z-index: -10;*/
+}
+
+#color {
+	background-color: #ffe6c3;
+}
+
+#color2 {
+	background-color: #99f5fd;
+}
+
+.center {
+	display: block;
+	margin: auto;
+}
+
+
+.col2 {
+	left: 10vw;
+}
+
+.col3 {
+	left: 20vw;
+}
+
+.col4 {
+	left: 30vw;
+}
+
+.col5 {
+	left: 40vw;
+}
+
+.col6 {
+	left: 50vw;
+}
+
+.col7 {
+	left: 60vw;
+}
+
+.col8 {
+	left: 70vw;
+}
+
+.col9 {
+	left: 80vw;
+}
+
+.col10 {
+	left: 90vw;
+}
+
+
+
+
+
+.row2 {
+	top: 10vh;
+}
+
+.row3 {
+	top: 20vh;
+}
+
+.row4 {
+	top: 30vh;
+}
+
+.row5 {
+	top: 40vh;
+}
+
+.row6 {
+	top: 50vh;
+}
+
+.row7 {
+	top: 60vh;
+}
+
+.row8 {
+	top: 70vh;
+}
+
+.row9 {
+	top: 80vh;
+}
+
+.row10 {
+	top: 90vh;
+}
+
+
+
+.intro img {
+	display: block;
+	width: 50%;
+	position: absolute;
+	top: 30%;
+	left: 26%;
+}
+
+.arrow img {
+	position: absolute;
+	width: 43px;
+	top: 10%;
+	left: 21%;
+	margin: 0px;
+}
+
+.r4c7 {
+	width: 46px;
+	position: absolute;
+	left: 49px;
+	top: 61px;
+}
+
+.r4c7 p {
+	color: #d19e94;
+}
+
+.square {
+	position: absolute;
+	width: 4.4px;
+	height: 4.4px;
+	background-color: #d19e94;
+}
+
+#square1 {
+	transform: rotate(57deg);
+	left: 34px;
+	top: 52px;
+}
+
+#square2 {
+	transform: rotate(104deg);
+	left: 59px;
+	top: 28px;
+}
+
+.circle {
+	position: absolute;
+	height: 4.4px;
+	width: 4.4px;
+	border-radius: 50%;
+	background-color: #d19e94;
+}
+
+#circle1 {
+	left: 90px;
+	top: 32px;
+}
+
+#circle2 {
+	left: 110px;
+	top: 14px;
+}
+
+#circle3 {
+	left: 90px;
+	top: -2px;
+}
+
+#circle4 {
+	left: 103px;
+	top: 47px;
+}
+
+#circle5 {
+	left: 63px;
+	top: 63px;
+}
+
+.gradientWrappers { 
+	padding: 10px;
+	padding-bottom: 0;
+	padding-left: 0;
+		border-radius: 0 100px 0 0;
+	-moz-border-radius: 0 100px 0 0;
+	-webkit-border-radius: 0 100px 0 0;
+	
+	
+	background: #d19e94;
+	background: -webkit-linear-gradient(#d19e94, white); 
+	background: -o-linear-gradient(#d19e94, white); 
+	background: -moz-linear-gradient(#d19e94, white); 
+	background: linear-gradient(#d19e94, white); 
+}
+
+.quarterCircleGradient {
+	padding: 4px;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	left: 75.5px;
+	top: 7px;
+	border-radius: 0 100px 0 0;
+	-moz-border-radius: 0 100px 0 0;
+	-webkit-border-radius: 0 100px 0 0;
+	background: #d19e94;
+	background: -webkit-linear-gradient(#95a2ca, #d19e94);
+	background: -o-linear-gradient(#95a2ca, #d19e94); 
+	background: -moz-linear-gradient(#95a2ca, #d19e94); 
+	background: linear-gradient(#95a2ca, #d19e94);
+}
+
+.quarterCircleCover {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	left: 75.5px;
+	top: 15px;
+	background: white;
+	border-radius: 0 100px 0 0;
+	-moz-border-radius: 0 100px 0 0;
+	-webkit-border-radius: 0 100px 0 0;
+	z-index: 10;
+}
+
+.triangle {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 2px solid transparent;
+	border-right: 2px solid transparent;
+	border-top: 4px solid #95a2ca;
+}
+
+#triangle1 {
+	left: 48px;
+	top: 20px;
+	transform: rotate(120deg);
+}
+
+#triangle2 {
+	left: 19px;
+	top: 8px;
+	transform: rotate(26deg);
+}
+
+#triangle3 {
+	left: -1px;
+	top: 37px;
+	transform: rotate(90deg);
+	z-index: 1;
+}
+
+.steps img {
+	width: 50%;
+	position: absolute;
+	top: 12%;
+	left: 26%;
+}
+
+.r3c6 {
+	width: 46px;
+	position: absolute;
+	left: 96px;
+	top: 26px;
+}
+
+.r3c6 p {
+	color: #f9cf98;
+	font-weight: 800;
+	font-size: 6px;
+}
+
+.icon1 {
+	position: absolute;
+	left: 7px;
+	top: 13px;
+	width: 37px;
+	height: 51px;
+	overflow: hidden;
+	z-index: 10;
+}
+
+.icon1 img {
+	width: 100%;
+}
+
+.icon1 p {
+	position: absolute;
+	left: 12px;
+	top: 24px;
+	z-index: -2;
+}
+
+#hover {
+	position:absolute;
+	margin: 0;
+	padding: 0;
+	top: -26px;
+	left: -71px;
+	width: 300%;
+	z-index: -1;
+}
+
+.icon1 #hover {
+	display: none;
+    position: absolute;
+}
+
+.icon1:hover #hover {
+	display: block;
+	position: absolute;
+}
+
+.icon1:hover {
+	cursor:zoom-in;
+}
+
+.setting1 {
+	position: absolute;
+	left: 17%;
+	top: 50%;
+	z-index: 50;
+	width: 0px;
+	height: 0px;
+	background-color: black;
+}
+
+.insides {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	display: none;
+	position: absolute;
+}
+
+.xOut {
+	position: absolute;
+	right: 5px;
+	top: 4px;
+	z-index: 80;
+}
+
+.xOut a {
+	font-size: 5px;
+	color: #e6e7e8;
+	text-decoration: none;
+}
+
+.xOut:hover {
+	cursor:pointer;
+}
+
+.frame1 {
+	position: fixed;
+	left: 53vw;
+	top: 21vh;
+	height: 30px;
+	z-index: 60;
+}
+
+.frame1 img {
+	position: relative;
+	width: 60px;
+}
+
+#moveAround img {
+	position: absolute;
+	left: 23px;
+	top: 14px;
+	width: 10px;
+}
+
+.image1 {
+	width: 28px;
+	height: 38px;
+	top: 8px;
+	left: 57px;
+	z-index: 55;
+	overflow: auto;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+
+.image1 img {
+	width: 300%;
+}
+
+.quarterCircleGradient2 {
+    width: 48px;
+    height: 96px; /* as the half of the width */
+    border-top-right-radius: 48px;  /* 100px of height + 10px of border */
+    border-bottom-right-radius: 48px; /* 100px of height + 10px of border */
+	background-color: #bce6f4;
+	background: linear-gradient(#bce6f4, rgba(255,0,0,0));
+	position: absolute;
+	left: 44px;
+	top: -60px;
+}
+
+.quarterCircleCover2 {
+	width: 34px;
+    height: 68px; /* as the half of the width */
+    border-top-right-radius: 34px;  /* 100px of height + 10px of border */
+    border-bottom-right-radius: 34px; /* 100px of height + 10px of border */
+	background-color: white;
+	position: absolute;
+	left: 44px;
+	top: -47px;
+}
+
+.r2c6 {
+	position: absolute;
+	left: 25px;
+	top: 12px;
+	width: 25px;
+	z-index: 10;
+}
+
+.r2c6 p {
+	font-size: 2px;
+}
+
+.time img {
+	width: 20px;
+}
+
+.clockOne {
+	position: absolute;
+	left: 13px;
+	top: -13px;
+}
+
+.clockTwo {
+	position: absolute;
+	left: 58px;
+	top: 47px;
+}
+
+.clockThree {
+	position: absolute;
+	left: 11px;
+	top: 11px;
+}
+
+.clockArrow1 img {
+	width: 25px
+}
+
+.clockArrow1 {
+	position: absolute;
+	left: 35px;
+	top: 58px;
+}
+
+.clockArrow2 img {
+	width: 97px
+}
+
+.clockArrow2 {
+	position: absolute;
+	left: 35px;
+	top: 10px;
+}
+
+.clockArrow3 img {
+	width: 42px
+}
+
+.clockArrow3 {
+	position: absolute;
+	left: -36px;
+	top: 4px;
+	transform: rotate(10deg);
+}
+
+.icon2 {
+	position: absolute;
+	left: 44px;
+	top: 10px;
+	width: 55px;
+	height: 55px;
+	overflow: hidden;
+	z-index: 10;
+}
+
+.icon2 img {
+	width: 100%;
+}
+
+.r1c5 {
+	position: absolute;
+	left: 44px;
+	top: 69px;
+	width: 55px;
+	z-index: 1;
+}
+
+.r1c5 p {
+	font-size: 9px;
+}
+
+/*::-webkit-scrollbar { 
+	display: none; 
+}*/
+
+
+
+
