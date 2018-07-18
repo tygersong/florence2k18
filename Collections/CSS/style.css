@@ -19,7 +19,7 @@ body {
 	transform-origin: left top;
 }
 
-p {
+p, a, h1, h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2.5px;
 	font-weight: 400;
@@ -360,7 +360,6 @@ div {
 	z-index: 50;
 	width: 0px;
 	height: 0px;
-	background-color: black;
 }
 
 .insides {
@@ -414,10 +413,15 @@ div {
 	top: 8px;
 	left: 57px;
 	z-index: 55;
-	overflow: auto;
+	overflow: hidden;
 	position: absolute;
 	margin: 0;
 	padding: 0;
+	background-image: url(../images/birthOfVenus.jpg);
+	background-size: 70px auto;
+	transition: 0s linear;
+    transition-property: background-position;
+	background-repeat: no-repeat;
 }
 
 .image1 img {
@@ -536,7 +540,232 @@ div {
 
 .r1c5 p {
 	font-size: 9px;
+	color: #af786d;
 }
+
+.questionMark1 {
+	position: absolute;
+	left: 73px;
+	top: 32px;
+	width: 30px;
+}
+
+.questionMark1 img {
+	width: 100%;
+}
+
+.questionMark2 {
+	position: absolute;
+	left: -35px;
+	top: 51px;
+	width: 80px;
+}
+
+.questionMark2 img {
+	width: 100%;
+}
+
+.r2c4 {
+	position: absolute;
+	left: 42px;
+	top: 65px;
+	width: 60px;
+}
+
+.r2c4 p {
+	color: #d1d3d4;
+}
+
+.threeArrows {
+	position: absolute;
+	left: 1px;
+	top: -4px;
+	height: 800px;
+}
+
+.threeArrows img {
+	width: 100%;
+}
+
+.icon3 {
+	position: absolute;
+	left: 44px;
+	top: 10px;
+	width: 55px;
+	height: 55px;
+	overflow: hidden;
+	z-index: 10;
+}
+
+.icon3 img {
+	width: 100%;
+}
+
+.r4c5 {
+	width: 80px;
+	position: absolute;
+	left: 19px;
+	top: 25px;
+	text-align: center;
+}
+
+.r4c5 a {
+	font-size: 4px;
+	text-decoration: none;
+	border-bottom: 1px solid #bce6f4;
+}
+
+.r4c5 a:visited {
+	color: #bce6f4;
+}
+
+.r4c6 {
+	background: linear-gradient(-45deg, #bce6f4, #95a2ca, #d19e94, #f9cf98);
+	width: 100%;
+	height: 100%;
+}
+
+.r4c3 {
+	width: 128px;
+	height: 68px;
+	background-color: #95a2ca;
+	position: absolute;
+	left: 7px;
+	top: 5px;
+}
+
+.connector1 {
+	width: 15px;
+	height: 20px;
+	background-color: #95a2ca;
+	position: absolute;
+	left: 132px;
+	top: 30px;
+}
+
+.r4c3 p {
+	width: 60px;
+	position: absolute;
+	left: -4px;
+	top: 31px;
+	color: white;
+}
+
+.connector2 {
+	width: 17px;
+	height: 16px;
+	background-color: #95a2ca;
+	position: absolute;
+	left: -10px;
+	top: 32px;
+	background: linear-gradient(to right, #f9cf98, #95a2ca);
+}
+
+.glasses {
+	position: absolute;
+	top: 2px;
+	width: 280px;
+}
+
+.glasses img {
+	width: 100%;
+}
+
+.r5c1 {
+	position: absolute;
+	left: 7px;
+	width: 124px;
+	z-index: 1;
+}
+
+.r5c1 img {
+	width: 100%;
+}
+
+.icon4 {
+	position: absolute;
+	left: 50px;
+	top: 20px;
+	width: 45px;
+	height: 45px;
+	overflow: hidden;
+	z-index: 10;
+}
+
+.icon4 img {
+	width: 100%;
+}
+
+.r6c1 {
+	position: absolute;
+	left: 4px;
+	top: 10px;
+	width: 170px;
+	z-index: 1;
+}
+
+.r6c1 img {
+	width: 100%;
+}
+
+.roundedBar {
+	border-radius: 25px;
+	width: 412px;
+	height: 30px;
+	background: linear-gradient(-90deg, #bce6f4, #d19e94, #f9cf98);
+	position: absolute;
+	left: 10px;
+	top: 25px;
+	z-index: 1;
+}
+
+.col4 .roundedBar:hover {
+	cursor: none;
+}
+
+.gradientFluff {
+	width: 10vw;
+	height: 10vh;
+	z-index: -1;
+}
+
+.gradientFluff img {
+	width: 100%;
+	height: 100%;
+}
+
+.r6c3 h1 {
+	font-size: 35px;
+	font-weight: 800;
+	position: absolute;
+	left: -4px;
+	top: -2px;
+	color: #f9cf98;
+}
+
+.r6c3 h2 {
+	font-size: 9px;
+	font-weight: 800;
+	line-height: 11px;
+	position: absolute;
+	left: 68px;
+	top: 17px;
+	text-align: left;
+	z-index: 1;
+	color: #95a2ca;
+}
+
+.r6c3 p {
+	font-size: 2px;
+	font-weight: 400;
+	position: absolute;
+	left: 70px;
+	top: 53px;
+	width: 60px;
+	text-align: left;
+	color: #95a2ca;
+}
+
 
 /*::-webkit-scrollbar { 
 	display: none; 

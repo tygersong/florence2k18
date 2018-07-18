@@ -52,4 +52,16 @@ $('.image1').scroll(function () {
 });
 
 
+
+
+
+
+
+$('.setting1').mousemove(function(e){
+	var amountMovedX = (e.clientX * -1 / 35);
+	var amountMovedY = (e.clientY * -1 / 50);
+    $(".image1").css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
+});
+
+
 });
