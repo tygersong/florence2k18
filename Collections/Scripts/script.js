@@ -537,15 +537,29 @@ $('.icon1').click(function(){
 
 
 $('.xOut').click(function(){
-    $(".setting1").animate({
+    $(".setting1, .setting5, .setting7").animate({
 		top: '50%',
 		left: '17%',
 		width: '0%',
 		height:'0%'
 	}, 800);
-	$(".setting2, .setting3, .setting4").animate({
+	$(".setting2, .setting3, .setting4, .setting8, .setting9").animate({
 		top: '50%',
 		left: '50%',
+		width: '0%',
+		height:'0%'
+	}, 800);
+
+	$(".setting6").animate({
+		top: '30%',
+		left: '40%',
+		width: '0%',
+		height:'0%'
+	}, 800);
+
+	$(".setting10").animate({
+		top: '50%',
+		left: '67%',
 		width: '0%',
 		height:'0%'
 	}, 800);
@@ -741,6 +755,324 @@ $('.setting4').mousemove(function(e){
 	var amountMovedY = (e.clientY * -1 / 37 + 5);
     $(".image4").css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
 });
+
+
+
+
+
+
+
+
+
+
+
+$('.icon5').click(function(){
+	$(".top").hide();
+	$(".left").hide();
+	$(".right").hide();
+	$(".bottom").hide();
+	$(".home").hide();
+	$(".info").hide();
+	$(".infoPage").hide();
+	$(".zoomOut").hide();
+	$(".zoomIn").hide();
+    $(".setting5").animate({
+		top: '0%',
+		left: '0%',
+		width: '100%',
+		height:'100%'
+	}, 800);
+	$(".insides").fadeIn(1000);
+
+	window.scrollTo(X, Y);
+
+	var scrollPosition = [
+	self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
+	self.pageYOffset || document.documentElement.scrollTop  || document.body.scrollTop
+	];
+	var html = jQuery('html');
+	html.data('scroll-position', scrollPosition);
+	html.data('previous-overflow', html.css('overflow'));
+	html.css('overflow', 'hidden');
+	window.scrollTo(scrollPosition[0], scrollPosition[1]);
+})
+
+
+$('.image5').scroll(function () {
+    $('.opacityScroller').scrollTop($(this).scrollTop());
+});
+
+
+$('.setting5').mousemove(function(e){
+	var amountMovedX = (e.clientX * -1 / 35 + 3);
+	var amountMovedY = (e.clientY * -1 / 25 + 5);
+    $(".image5").css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
+});
+
+
+
+
+
+
+
+
+
+
+
+$('.icon6').click(function(){
+	$(".top").hide();
+	$(".left").hide();
+	$(".right").hide();
+	$(".bottom").hide();
+	$(".home").hide();
+	$(".info").hide();
+	$(".infoPage").hide();
+	$(".zoomOut").hide();
+	$(".zoomIn").hide();
+    $(".setting6").animate({
+		top: '0%',
+		left: '0%',
+		width: '100%',
+		height:'100%'
+	}, 800);
+	$(".insides").fadeIn(1000);
+
+	window.scrollTo(X, Y);
+
+	var scrollPosition = [
+	self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
+	self.pageYOffset || document.documentElement.scrollTop  || document.body.scrollTop
+	];
+	var html = jQuery('html');
+	html.data('scroll-position', scrollPosition);
+	html.data('previous-overflow', html.css('overflow'));
+	html.css('overflow', 'hidden');
+	window.scrollTo(scrollPosition[0], scrollPosition[1]);
+})
+
+
+$('.image6').scroll(function () {
+    $('.opacityScroller').scrollTop($(this).scrollTop());
+});
+
+
+$('.setting6').mousemove(function(e){
+	var amountMovedX = (e.clientX * -1 / 30 + 3);
+	var amountMovedY = (e.clientY * -1 / 15 + 5);
+    $(".image6").css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
+});
+
+
+
+
+
+
+
+
+
+
+
+$('.icon7').click(function(){
+	$(".top").hide();
+	$(".left").hide();
+	$(".right").hide();
+	$(".bottom").hide();
+	$(".home").hide();
+	$(".info").hide();
+	$(".infoPage").hide();
+	$(".zoomOut").hide();
+	$(".zoomIn").hide();
+    $(".setting7").animate({
+		top: '0%',
+		left: '0%',
+		width: '100%',
+		height:'100%'
+	}, 800);
+	$(".insides").fadeIn(1000);
+
+	window.scrollTo(X, Y);
+
+	var scrollPosition = [
+	self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
+	self.pageYOffset || document.documentElement.scrollTop  || document.body.scrollTop
+	];
+	var html = jQuery('html');
+	html.data('scroll-position', scrollPosition);
+	html.data('previous-overflow', html.css('overflow'));
+	html.css('overflow', 'hidden');
+	window.scrollTo(scrollPosition[0], scrollPosition[1]);
+})
+
+
+$('.image7').scroll(function () {
+    $('.opacityScroller').scrollTop($(this).scrollTop());
+});
+
+
+$('.setting7').mousemove(function(e){
+	var amountMovedX = (e.clientX * -1 / 70);
+	var amountMovedY = (e.clientY * -1 / 13 + 3);
+    $(".image7").css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$('.icon8').click(function(){
+	$(".top").hide();
+	$(".left").hide();
+	$(".right").hide();
+	$(".bottom").hide();
+	$(".home").hide();
+	$(".info").hide();
+	$(".infoPage").hide();
+	$(".zoomOut").hide();
+	$(".zoomIn").hide();
+    $(".setting8").animate({
+		top: '0%',
+		left: '0%',
+		width: '100%',
+		height:'100%'
+	}, 800);
+	$(".insides").fadeIn(1000);
+
+	window.scrollTo(X, Y);
+
+	var scrollPosition = [
+	self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
+	self.pageYOffset || document.documentElement.scrollTop  || document.body.scrollTop
+	];
+	var html = jQuery('html');
+	html.data('scroll-position', scrollPosition);
+	html.data('previous-overflow', html.css('overflow'));
+	html.css('overflow', 'hidden');
+	window.scrollTo(scrollPosition[0], scrollPosition[1]);
+})
+
+
+$('.image8').scroll(function () {
+    $('.opacityScroller').scrollTop($(this).scrollTop());
+});
+
+
+$('.setting8').mousemove(function(e){
+	var amountMovedX = (e.clientX * -1 / 35);
+	var amountMovedY = (e.clientY * -1 / 10 + 8);
+    $(".image8").css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
+});
+
+
+
+
+
+
+
+
+$('.icon9').click(function(){
+	$(".top").hide();
+	$(".left").hide();
+	$(".right").hide();
+	$(".bottom").hide();
+	$(".home").hide();
+	$(".info").hide();
+	$(".infoPage").hide();
+	$(".zoomOut").hide();
+	$(".zoomIn").hide();
+    $(".setting9").animate({
+		top: '0%',
+		left: '0%',
+		width: '100%',
+		height:'100%'
+	}, 800);
+	$(".insides").fadeIn(1000);
+
+	window.scrollTo(X, Y);
+
+	var scrollPosition = [
+	self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
+	self.pageYOffset || document.documentElement.scrollTop  || document.body.scrollTop
+	];
+	var html = jQuery('html');
+	html.data('scroll-position', scrollPosition);
+	html.data('previous-overflow', html.css('overflow'));
+	html.css('overflow', 'hidden');
+	window.scrollTo(scrollPosition[0], scrollPosition[1]);
+})
+
+
+$('.image9').scroll(function () {
+    $('.opacityScroller').scrollTop($(this).scrollTop());
+});
+
+
+$('.setting9').mousemove(function(e){
+	var amountMovedX = (e.clientX * -1 / 30);
+	var amountMovedY = (e.clientY * -1 / 15);
+    $(".image9").css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
+});
+
+
+
+
+
+
+
+
+$('.icon10').click(function(){
+	$(".top").hide();
+	$(".left").hide();
+	$(".right").hide();
+	$(".bottom").hide();
+	$(".home").hide();
+	$(".info").hide();
+	$(".infoPage").hide();
+	$(".zoomOut").hide();
+	$(".zoomIn").hide();
+    $(".setting10").animate({
+		top: '0%',
+		left: '0%',
+		width: '100%',
+		height:'100%'
+	}, 800);
+	$(".insides").fadeIn(1000);
+
+	window.scrollTo(X, Y);
+
+	var scrollPosition = [
+	self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
+	self.pageYOffset || document.documentElement.scrollTop  || document.body.scrollTop
+	];
+	var html = jQuery('html');
+	html.data('scroll-position', scrollPosition);
+	html.data('previous-overflow', html.css('overflow'));
+	html.css('overflow', 'hidden');
+	window.scrollTo(scrollPosition[0], scrollPosition[1]);
+})
+
+
+$('.image10').scroll(function () {
+    $('.opacityScroller').scrollTop($(this).scrollTop());
+});
+
+
+$('.setting10').mousemove(function(e){
+	var amountMovedX = (e.clientX * -1 / 23);
+	var amountMovedY = (e.clientY * -1 / 43);
+    $(".image10").css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
+});
+
+
+
 
 
 
