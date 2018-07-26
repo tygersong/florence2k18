@@ -27,7 +27,7 @@ body {
 }
 .top img:hover {
 	opacity: 1;
-	cursor: pointer;
+	cursor: n-resize;
 }
 
 .topTriangle {
@@ -50,7 +50,7 @@ body {
 }
 .left img:hover {
 	opacity: 1;
-	cursor: pointer;
+	cursor: w-resize;
 }
 
 .leftTriangle {
@@ -74,7 +74,7 @@ body {
 }
 .right img:hover {
 	opacity: 1;
-	cursor: pointer;
+	cursor: e-resize;
 }
 
 .rightTriangle {
@@ -98,7 +98,7 @@ body {
 }
 .bottom img:hover {
 	opacity: 1;
-	cursor: pointer;
+	cursor: s-resize;
 }
 
 .bottomTriangle {
@@ -1258,21 +1258,21 @@ div {
 .hoverFixFrame {
 	position:absolute;
 	overflow: hidden;
-    width: 44px;
+    width: 43px;
     height: 25px;
     top: 1px;
-    left: 3px;
-	border-top-left-radius: 20px 14px;
-    border-top-right-radius: 37px 23px;
-    border-bottom-left-radius: 15px 9px;
-    border-bottom-right-radius: 16px 15px;
+    left: 2px;
+    border-top-left-radius: 38px 26px;
+    border-top-right-radius: 31px 23px;
+    border-bottom-left-radius: 37px 17px;
+    border-bottom-right-radius: 35px 15px;
     z-index: -1;
 }
 
 .hover4 {
 	position:absolute;
 	overflow: hidden;
-    width: 44px;
+    width: 43px;
     height: 25px;
 	border-top-left-radius: 20px 14px;
     border-top-right-radius: 24px 10px;
